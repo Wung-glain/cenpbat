@@ -17,7 +17,7 @@ const ResearchPage = () => {
       team: "Dr. Sarah Johnson, Dr. Michael Chen",
       duration: "2022-2025",
       funding: "$2.5M NIH Grant",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d2810?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const ResearchPage = () => {
       team: "Dr. Lisa Wang, Dr. Robert Garcia",
       duration: "2023-2025",
       funding: "$900K University Grant",
-      image: "https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=800&q=80"
     }
   ];
 

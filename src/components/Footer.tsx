@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary-foreground rounded-md flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">P</span>
+                <span className="text-primary font-bold text-sm">C</span>
               </div>
               <span className="font-semibold text-lg">
-                Phage Research Center
+                CenpBat
               </span>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">

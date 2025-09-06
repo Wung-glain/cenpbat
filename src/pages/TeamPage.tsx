@@ -1,5 +1,8 @@
 import { Mail, Linkedin, ExternalLink } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import david from '@/assets/team/david.jpg';
+import prof_nnadi from '@/assets/team/prof_nnadi.jpg';
+import tokdima from '@/assets/team/tokdima.jpg';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -7,39 +10,39 @@ const TeamPage = () => {
   const leadership = [
     {
       id: 1,
-      name: "Dr. Sarah Johnson",
-      role: "Director & Principal Investigator",
+      name: "Dr. Nnaemeka Emmanuel Nnadi",
+      role: "Chief Scientific Officer",
       specialization: "Clinical Phage Therapy",
-      bio: "Dr. Johnson leads our clinical research initiatives with over 15 years of experience in infectious disease medicine and bacteriophage therapy. She has authored over 60 peer-reviewed publications and holds 8 patents in phage therapeutics.",
+      bio: "Meet our Chief Scientific Officer, a renowned name in Phage Research. Dr. Nnaemeka Emmanuel Nnadi is a distinguished researcher and academic in the field of microbiology. He is a senior lecturer and Director for Research and Development at the Plateau State University, Bokkos, Nigeria, and co-founder of the African Phage Forum",
       education: ["MD, Johns Hopkins University", "PhD Microbiology, MIT"],
-      achievements: ["NIH Outstanding Investigator Award 2023", "ASM Clinical Microbiology Award 2022"],
+      achievements: ["Phage display technology to advance Vaccine development.", "ASM Clinical Microbiology Award 2022"],
       email: "s.johnson@phageresearch.org",
       linkedin: "#",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80"
+      image: prof_nnadi
     },
     {
       id: 2,
-      name: "Dr. Michael Chen",
+      name: "Tambe David Tipah",
       role: "Associate Director of Research",
       specialization: "Molecular Biology & Genetics",
-      bio: "Dr. Chen oversees our fundamental research programs, focusing on phage-bacteria interactions and genetic engineering of therapeutic phages. His work has been instrumental in developing next-generation phage therapeutics.",
+      bio: "Tambe David Tipah oversees our fundamental research programs, focusing on phage-bacteria interactions and genetic engineering of therapeutic phages. His work has been instrumental in developing next-generation phage therapeutics.",
       education: ["PhD Molecular Biology, Stanford University", "MS Biotechnology, UC Berkeley"],
-      achievements: ["NSF CAREER Award 2021", "Young Investigator Award, International Phage Society"],
+      achievements: ["The prophylactic evaluation of lambda bacteriophage construct displaying HER2 peptides in BALB/c Mice", "Isolation and characterization of Xanthomonas phage to manage bacteria spot disease in tomatoes"],
       email: "m.chen@phageresearch.org",
       linkedin: "#",
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80"
+      image: david
     }
   ];
 
   const researchers = [
     {
       id: 3,
-      name: "Dr. Emily Rodriguez",
+      name: "Tambe David Tipah",
       role: "Senior Research Scientist",
       specialization: "Regulatory Affairs & Clinical Trials",
       bio: "Dr. Rodriguez manages our clinical trial design and regulatory compliance, ensuring our research meets the highest standards for patient safety and scientific rigor.",
       education: ["PhD Pharmacology, Harvard University", "JD Health Law, Georgetown"],
-      image: "https://images.unsplash.com/photo-1594824475317-87e0c7c45159?auto=format&fit=crop&w=400&q=80"
+      image: david
     },
     {
       id: 4,
@@ -52,12 +55,12 @@ const TeamPage = () => {
     },
     {
       id: 5,
-      name: "Dr. Lisa Wang",
+      name: "Tokdima Gershinen Yunana",
       role: "Research Scientist",
       specialization: "Computational Biology & Bioinformatics",
-      bio: "Dr. Wang applies computational methods to phage discovery, genome analysis, and treatment optimization using machine learning approaches.",
-      education: ["PhD Bioinformatics, University of Washington", "MS Computer Science, Carnegie Mellon"],
-      image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&w=400&q=80"
+      bio: "Tokdima Gershinen Yunana a master student with the department of microbiology, Plateau State University Nigeria, studying the genetic diversity of cryptococcus species complex in Plateau State Nigeria. ",
+      education: ["Plateau State University, Nigeria, University of Washington", "MS Computer Science, Carnegie Mellon"],
+      image: tokdima
     },
     {
       id: 6,

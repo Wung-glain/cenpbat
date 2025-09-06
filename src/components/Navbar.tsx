@@ -19,28 +19,31 @@ const Navbar = () => {
   const isActive = (href: string) => location.pathname === href;
 
   return (
-    <nav className="bg-background/95 backdrop-blur-md border-b border-border sticky top-0 z-50">
+    <nav className="bg-primary text-primary-foreground backdrop-blur-md border-b border-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">P</span>
+              <div className="w-8 h-8 bg-primary-foreground rounded-md flex items-center justify-center">
+                <span className="text-primary font-bold text-sm">C</span>
               </div>
-              <span className="font-semibold text-lg text-foreground">
-                Phage Research Center
+              <span className="font-semibold text-lg ">
+                CenpBat
               </span>
             </Link>
           </div>
 
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-6 text-sm text-muted-foreground">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 text-primary-foreground">
               <Phone className="w-4 h-4" />
-              <span>+1 (555) 123-4567</span>
+              <a href="tel: +234 (704) 139-7522">
+                <span>+234 (704) 139-7522</span>
+              </a>
+              
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 text-primary-foreground">
               <Mail className="w-4 h-4" />
               <span>info@phageresearch.org</span>
             </div>
@@ -55,8 +58,8 @@ const Navbar = () => {
                   to={item.href}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-smooth ${
                     isActive(item.href)
-                      ? 'bg-primary text-primary-foreground'
-                      : 'text-foreground hover:bg-accent hover:text-accent-foreground'
+                      ? 'bg-primary text-secondary'
+                      : 'text-primary-foreground hover:bg-accent hover:text-accent-foreground'
                   }`}
                 >
                   {item.name}

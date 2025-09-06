@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Microscope, Shield, Users, BookOpen } from 'lucide-react';
+import { ArrowRight,MessageCircle, Microscope, Shield, Users, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import ImageCarousel from '@/components/ImageCarousel';
@@ -51,8 +51,10 @@ const HomePage = () => {
             Advancing Phage Therapy Research
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Harnessing bacteriophages to combat antibiotic resistance and 
-            revolutionize the treatment of bacterial infections.
+              Advancing global health through phage biology: 
+              Harnessing the power of nature—from plant ecosystems to animal health—to develop 
+              innovative therapeutics for humans. Located in Jos, Nigeria, we are at the 
+              forefront of phage research and its translational applications
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-3">
@@ -61,11 +63,19 @@ const HomePage = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-lg px-8 py-3 bg-white/10 border-white/30 text-white hover:bg-white/20">
-              <Link to="/research">
-                Explore Research
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Link>
+            <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-3 bg-green-600 border-white/30 text-white hover:bg-white/20">
+            
+            <div>
+              <a 
+                href="https://wa.me/2347041397522" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 text-white/90 hover:text-white transition-colors"
+              >
+                <MessageCircle size={20} />
+                <span>Text us on WhatsApp</span>
+              </a>
+            </div>
             </Button>
           </div>
         </div>
