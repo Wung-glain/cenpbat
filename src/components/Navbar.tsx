@@ -44,8 +44,11 @@ const Navbar = () => {
               
             </div>
             <div className="flex items-center space-x-2 text-primary-foreground">
+              <a href="mailto:cenpbat@gmail.com" className="flex space-x-2">
               <Mail className="w-4 h-4" />
-              <span>info@phageresearch.org</span>
+              <span>cenpbat@gmail.com</span>
+              </a>
+
             </div>
           </div>
 
@@ -108,11 +111,13 @@ const Navbar = () => {
               <div className="px-3 py-2 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2 mb-2">
                   <Phone className="w-4 h-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+234 (704) 139-7522</span>
                 </div>
                 <div className="flex items-center space-x-2">
+                  <a href="mailto:cenpbat@gmail.com">
                   <Mail className="w-4 h-4" />
-                  <span>info@phageresearch.org</span>
+                  <span>cenpbat@gmail.com</span>
+                  </a>
                 </div>
               </div>
             </div>

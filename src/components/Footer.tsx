@@ -89,15 +89,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/80">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+234 (704) 139-7522</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/80">
-                <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@phageresearch.org</span>
+              <a href="mailto:cenpbat@gmail.com" className="flex space-x-2">
+                <Mail className="w-4 h-4" />
+                <span>cenpbat@gmail.com</span>
+                </a>
               </div>
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/80">
                 <MapPin className="w-4 h-4 flex-shrink-0" />
-                <span>123 Research Drive, Medical District</span>
+                <span>Ecwa Seminary, Jos, Plateau State Nigeria</span>
               </div>
             </div>
             

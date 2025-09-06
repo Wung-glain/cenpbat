@@ -44,13 +44,13 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@phageresearch.org", "research@phageresearch.org"],
+      details: ["cenpbat@gmail.com", "research@phageresearch.org"],
       description: "Send us an email and we'll respond within 24 hours"
     },
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Research Drive", "Medical District, City 12345", "United States"],
+      details: ["Ecwa Seminary, Jos, Plateau State", "Nigeria"],
       description: "Visit us at our state-of-the-art research facility"
     },
     {
@@ -79,7 +79,7 @@ const ContactPage = () => {
     },
     {
       title: "Media & Press",
-      email: "media@phageresearch.org",
+      email: "cenpbat@gmail.com",
       description: "For press inquiries and media relations"
     },
     {
@@ -265,7 +265,7 @@ const ContactPage = () => {
                 <MapPin className="w-12 h-12 mx-auto mb-4" />
                 <p className="text-lg font-medium">Interactive Map</p>
                 <p className="text-sm">Google Maps integration would be embedded here</p>
-                <p className="text-sm mt-2">123 Research Drive, Medical District</p>
+                <p className="text-sm mt-2">Ecwa Seminary, Jos, Plateau State, Nigeria</p>
               </div>
             </div>
           </Card>
@@ -286,8 +286,10 @@ const ContactPage = () => {
               <span>Emergency: +1 (555) 911-PHAGE</span>
             </div>
             <div className="flex items-center space-x-2 text-lg font-medium">
+              <a href="mailto:cenpbat@gmail.com">
               <Mail className="w-5 h-5" />
-              <span>emergency@phageresearch.org</span>
+              <span>cenpbat@gmail.com</span>
+              </a>
             </div>
           </div>
         </section>
