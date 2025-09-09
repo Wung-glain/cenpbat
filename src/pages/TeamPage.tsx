@@ -122,7 +122,7 @@ const TeamPage = () => {
             <div className="flex space-x-2 pt-2">
               {member.email && (
                 <Button variant="ghost" size="sm" className="p-2">
-                  <Mail className="w-4 h-4" />
+                  <a href={`mailto:${member.email}`}><Mail className="w-4 h-4" /></a>
                 </Button>
               )}
               {member.linkedin && (
