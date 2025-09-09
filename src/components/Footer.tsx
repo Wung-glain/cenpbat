@@ -46,8 +46,9 @@ const Footer = () => {
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-primary-foreground/10 p-2">
                 <Twitter className="w-4 h-4" />
               </Button>
+              
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-primary-foreground/10 p-2">
-                <Linkedin className="w-4 h-4" />
+                <a href="http://www.linkedin.com/company/centre-for-phage-biology-and-therapeutics"><Linkedin className="w-4 h-4" /></a>
               </Button>
             </div>
           </div>

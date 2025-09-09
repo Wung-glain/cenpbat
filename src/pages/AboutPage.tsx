@@ -57,8 +57,13 @@ const AboutPage = () => {
             About Our Research Center
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Pioneering the future of infectious disease treatment through innovative 
-            bacteriophage research and therapeutic development.
+            The Centre for Phage Biology and Therapeutics (CPBT) focuses on advancing Microbilogy, Molecular Biology,
+            and Biotechnology to address global health and environmental Challenges. While our primary research centers
+            on bacteriophages, we integrate diverse techniques to enhance phage therapies and other biotechological solutions.
+            We offer phage storage solutions, ensuring long-term stability for therapeutic and industrial use. CPBT also drives the 
+            commercialization of phage-based products, translating research into real-world applicatons, Through training and mentorship,
+            we empower the next generation of Scientists and professionals. CPBT is committed to improving health, food safety, and
+            environmental sustainability.
           </p>
         </div>
 

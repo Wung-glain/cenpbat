@@ -39,7 +39,7 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+234 (901) 356-0849"],
+      details: ["+234 (901) 356-0849", "+234 (081) 0435-3371"],
       description: "Call us during business hours or leave a message"
     },
     {

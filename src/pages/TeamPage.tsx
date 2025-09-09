@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import david from '@/assets/team/david.jpg';
 import prof_nnadi from '@/assets/team/prof_nnadi.jpg';
 import tokdima from '@/assets/team/tokdima.jpg';
+import igwe from '@/assets/team/igwe.jpg';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -17,90 +18,50 @@ const TeamPage = () => {
       education: ["Ph.D in Medical Microbiology", "M.Sc in Medical Microbiology", "B.Sc in Microbiolgy"],
       achievements: ["Phage Therapy: Developed bacteriophage-based treatments to combat AMR, particular against pathogens like Salmonella Typhi and Pseudomonas aeruginosa", "Vaccine Development: Working on a low-temperature, needle-free typhoid vaccine to improve accessibility in underserved communities","AI Integration: Exploring the use of artificial intelligence to enhance phage research in vaccine design"],
       email: "s.johnson@phageresearch.org",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/nnaemeka-emmanuel-nnadi-a39298b5",
       image: prof_nnadi
-    },
-    {
-      id: 2,
-      name: "Tambe David Tipah",
-      role: "Associate Director of Research",
-      specialization: "Molecular Biology & Genetics",
-      bio: "My intrests centre on phage therapeutic application and antimicrobial studies. I am currently leading project on the development of a smart phage-based hydrogel bandage for effective management of Pseudomonas aeruginosa-infected wounds, as well as the detection of Salmonela Typhi hotspots through phage identification. By integrating laboratory innovation with translational research, i aim to contribute to novel strategies for infection control and the fight against antimicrobia resistance.",
-      education: ["PhD Molecular Biology, Stanford University", "MS Biotechnology, UC Berkeley"],
-      achievements: ["The prophylactic evaluation of lambda bacteriophage construct displaying HER2 peptides in BALB/c Mice", "Isolation and characterization of Xanthomonas phage to manage bacteria spot disease in tomatoes"],
-      email: "m.chen@phageresearch.org",
-      linkedin: "#",
-      image: david
     }
   ];
 
   const researchers = [
     {
-      id: 3,
+      id: 2,
       name: "Tambe David Tipah",
       role: "Senior Research Scientist",
       specialization: "Regulatory Affairs & Clinical Trials",
-      bio: "Dr. Rodriguez manages our clinical trial design and regulatory compliance, ensuring our research meets the highest standards for patient safety and scientific rigor.",
+      bio: "My intrests centre on phage therapeutic application and antimicrobial studies. I am currently leading project on the development of a smart phage-based hydrogel bandage for effective management of Pseudomonas aeruginosa-infected wounds, as well as the detection of Salmonela Typhi hotspots through phage identification.",
       education: ["PhD Pharmacology, Harvard University", "JD Health Law, Georgetown"],
+      achievements: ["The prophylactic evaluation of lambda bacteriophage construct displaying HER2 peptides in BALB/c Mice", "Isolation and characterization of Xanthomonas phage to manage bacteria spot disease in tomatoes"],
+      email: "m.chen@phageresearch.org",
+      linkedin: "https://www.linkedin.com/in/david-tipah-83a9b6314",
       image: david
     },
     {
-      id: 4,
-      name: "Dr. James Park",
-      role: "Research Scientist",
-      specialization: "Phage Manufacturing & Quality Control",
-      bio: "Dr. Park leads our phage production and purification efforts, developing scalable manufacturing processes for clinical-grade phage preparations.",
-      education: ["PhD Chemical Engineering, Caltech", "MS Bioengineering, UCSD"],
-      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=400&q=80"
+      id: 3,
+      name: "Igwe Blessing Chidinma",
+      role: "Research Enthusiast",
+      specialization: "Phage Therapist & Biotech",
+      bio: "As a research enthusiast turned Virtual Assistant, I blend my scientific bacjground wth a passion for tecnology to deliver innovative solutions. With over 2 years of experience in phage therapy research abd laboratory management, i've developed a unique skill set that spans both the lab abd the virtual workspace.",
+      education: ["Alex Ekwueme Federal University Ndufu-Alike IK"],
+      achievements: ["Certificate of Achievement ( Lab Manager )"],
+      email: "m.chen@phageresearch.org",
+      linkedin: "https://www.linkedin.com/in/igwe-blessing-chidinma-7a115b207",
+      image: igwe
     },
     {
-      id: 5,
+      id: 4,
       name: "Tokdima Gershinen Yunana",
       role: "Research Scientist",
       specialization: "Computational Biology & Bioinformatics",
       bio: "Tokdima Gershinen Yunana a master student with the department of microbiology, Plateau State University Nigeria, studying the genetic diversity of cryptococcus species complex in Plateau State Nigeria. ",
-      education: ["Plateau State University, Nigeria, University of Washington", "MS Computer Science, Carnegie Mellon"],
+      education: ["Plateau State University, Nigeria"],
+      email: "m.chen@phageresearch.org",
+      linkedin: "https://www.linkedin.com/in/david-tipah-83a9b6314",
       image: tokdima
-    },
-    {
-      id: 6,
-      name: "Dr. Robert Garcia",
-      role: "Research Scientist",
-      specialization: "Immunology & Host Response",
-      bio: "Dr. Garcia studies the immune system's interaction with phage therapy, working to optimize treatment protocols and minimize adverse reactions.",
-      education: ["PhD Immunology, University of Pennsylvania", "MD, UCLA School of Medicine"],
-      image: "https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=400&q=80"
     }
   ];
 
   const staff = [
-    {
-      id: 7,
-      name: "Amanda Foster",
-      role: "Laboratory Manager",
-      specialization: "Operations & Safety",
-      bio: "Amanda oversees daily laboratory operations, maintains safety protocols, and manages our research infrastructure to ensure optimal research conditions.",
-      education: ["MS Laboratory Science, Boston University", "BS Biology, Northeastern University"],
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-      id: 8,
-      name: "Kevin Liu",
-      role: "Senior Laboratory Technician",
-      specialization: "Microbiology & Cell Culture",
-      bio: "Kevin supports research activities through expert technical assistance in bacterial culture, phage isolation, and experimental procedures.",
-      education: ["BS Microbiology, UC Davis", "Certificate in Laboratory Management"],
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-      id: 9,
-      name: "Maria Gonzalez",
-      role: "Clinical Research Coordinator",
-      specialization: "Patient Care & Protocol Management",
-      bio: "Maria coordinates our clinical trials, ensuring patient safety and protocol compliance while managing study logistics and data collection.",
-      education: ["RN, University of Miami", "MS Clinical Research, Georgetown University"],
-      image: "https://images.unsplash.com/photo-1594824475317-87e0c7c45159?auto=format&fit=crop&w=400&q=80"
-    }
   ];
 
   const TeamMemberCard = ({ member, isLeadership = false }) => (
@@ -166,7 +127,7 @@ const TeamPage = () => {
               )}
               {member.linkedin && (
                 <Button variant="ghost" size="sm" className="p-2">
-                  <Linkedin className="w-4 h-4" />
+                  <a href={member.linkedin}><Linkedin className="w-4 h-4" /></a>
                 </Button>
               )}
             </div>
