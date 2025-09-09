@@ -38,8 +38,8 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-6 text-sm text-muted-foreground">
             <div className="flex items-center space-x-2 text-primary-foreground">
               <Phone className="w-4 h-4" />
-              <a href="tel: +234 (704) 139-7522">
-                <span>+234 (704) 139-7522</span>
+              <a href="tel: +2349013560849">
+                <span>+234 (901) 356-0849</span>
               </a>
               
             </div>

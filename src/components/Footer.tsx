@@ -41,7 +41,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-primary-foreground/10 p-2">
-                <Facebook className="w-4 h-4" />
+                <a href="https://www.facebook.com/profile.php?id=61577408616288&mibextid=rS40aB7S9Ucbxw6v"><Facebook className="w-4 h-4" /></a>
               </Button>
               <Button variant="ghost" size="sm" className="text-primary-foreground hover:bg-primary-foreground/10 p-2">
                 <Twitter className="w-4 h-4" />
@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/80">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+234 (704) 139-7522</span>
+                <span>+234 (901) 356-0849</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/80">
               <a href="mailto:cenpbat@gmail.com" className="flex space-x-2">

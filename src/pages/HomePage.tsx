@@ -67,7 +67,7 @@ const HomePage = () => {
             
             <div>
               <a 
-                href="https://wa.me/2347041397522" 
+                href="https://wa.me/2349013560849" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-white/90 hover:text-white transition-colors"

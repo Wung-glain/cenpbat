@@ -32,13 +32,14 @@ const ContactPage = () => {
       description: "We'll get back to you within 24 hours.",
     });
     setFormData({ name: '', email: '', subject: '', message: '' });
+    console.log(formData);
   };
 
   const contactInfo = [
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568 (Emergency)"],
+      details: ["+234 (901) 356-0849"],
       description: "Call us during business hours or leave a message"
     },
     {
@@ -283,7 +284,7 @@ const ContactPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <div className="flex items-center space-x-2 text-lg font-medium">
               <Phone className="w-5 h-5" />
-              <span>Emergency: +1 (555) 911-PHAGE</span>
+              <span>Emergency: +234 (901) 356-0849</span>
             </div>
             <div className="flex items-center space-x-2 text-lg font-medium">
               <a href="mailto:cenpbat@gmail.com">

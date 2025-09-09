@@ -78,11 +78,14 @@ const AboutPage = () => {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-base leading-relaxed">
-                To advance the field of bacteriophage research through cutting-edge scientific 
-                investigation, developing innovative phage-based therapies that address the 
-                growing challenge of antibiotic-resistant bacterial infections. We are committed 
-                to translating laboratory discoveries into clinical applications that improve 
-                patient outcomes worldwide.
+                The Centre for Phage Biology and Therapeutics is dedicated 
+                to advancing the multifaceted applications of bacteriophages to 
+                address global health challenges through innovative research and development. 
+                We explore and harness the diverse potential of phages across therapeutic applications, 
+                vaccine development, diagnostics, and biotechnology solutions. 
+                Through rigorous scientific inquiry and global collaboration, we strive to develop safe, 
+                effective, and accessible phage-based solutions that combat antimicrobial resistance and 
+                transform modern medicine.
               </CardDescription>
             </CardContent>
           </Card>
@@ -96,11 +99,11 @@ const AboutPage = () => {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-base leading-relaxed">
-                To be the world's leading center for bacteriophage research, recognized for 
-                our scientific excellence, innovative approaches, and transformative impact 
-                on global health. We envision a future where phage therapy is a cornerstone 
-                of precision medicine, offering personalized treatment solutions for patients 
-                with antibiotic-resistant infections.
+                We envision a world where phage-based technologies are fundamental components of 
+                healthcare and biotechnology. By 2030, the Centre aims to be a global leader in 
+                comprehensive phage research and applications, pioneering breakthroughs in phage therapy, vaccines, 
+                diagnostics, and other innovative solutions. Our work will transform treatment paradigms for bacterial infections, enhance preventative medicine, and create sustainable biotechnological tools, ultimately improving global health outcomes regardless of geographical or economic limitations.
+
               </CardDescription>
             </CardContent>
           </Card>
