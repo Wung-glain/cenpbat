@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import lab1 from '@/assets/lab/lab1.jpg';
+import lab2 from '@/assets/lab/lab2.jpg';
+import machine from '@/assets/lab/machine.jpg';
 
 const ImageCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -11,13 +14,13 @@ const ImageCarousel = () => {
       id: 1,
       title: "Advanced Microscopy Lab",
       description: "State-of-the-art electron microscopy for bacteriophage visualization",
-      image: "https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?auto=format&fit=crop&w=1920&q=80"
+      image: lab1
     },
     {
       id: 2,
       title: "Bacterial Culture Research",
       description: "Studying bacterial resistance patterns in controlled environments",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d2810?auto=format&fit=crop&w=1920&q=80"
+      image: lab2
     },
     {
       id: 3,
@@ -29,7 +32,7 @@ const ImageCarousel = () => {
       id: 4,
       title: "Clinical Research Facility",
       description: "Translating laboratory discoveries into clinical applications",
-      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=1920&q=80"
+      image: machine
     }
   ];
 

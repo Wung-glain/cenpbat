@@ -3,6 +3,7 @@ import { ArrowRight,MessageCircle, Microscope, Shield, Users, BookOpen } from 'l
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import ImageCarousel from '@/components/ImageCarousel';
+import machine from '@/assets/lab/machine.jpg';
 import heroImage from '@/assets/hero-laboratory.jpg';
 
 const HomePage = () => {
@@ -42,7 +43,7 @@ const HomePage = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url(${machine})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70" />
         

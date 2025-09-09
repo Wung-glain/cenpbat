@@ -3,6 +3,8 @@ import { Calendar, User, ArrowRight, Tag } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import machine from '@/assets/lab/machine.jpg';
+import lab1 from '@/assets/lab/lab1.jpg';
 
 const BlogPage = () => {
   const blogPosts = [
@@ -16,7 +18,7 @@ const BlogPage = () => {
       category: "Clinical Research",
       tags: ["Phage Therapy", "Cystic Fibrosis", "Clinical Trial"],
       readTime: "5 min read",
-      image: "https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?auto=format&fit=crop&w=800&q=80",
+      image: machine,
       featured: true
     },
     {
@@ -29,7 +31,7 @@ const BlogPage = () => {
       category: "Basic Research",
       tags: ["Evolution", "Resistance", "Microbiology"],
       readTime: "7 min read",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d2810?auto=format&fit=crop&w=800&q=80",
+      image: machine,
       featured: false
     },
     {

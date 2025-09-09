@@ -14,11 +14,6 @@ const AboutPage = () => {
       description: "We foster collaboration between researchers, clinicians, and industry partners worldwide."
     },
     {
-      icon: HeartHandshake,
-      title: "Patient-Centered Care",
-      description: "Our research is driven by the goal of improving patient outcomes and quality of life."
-    },
-    {
       icon: Award,
       title: "Innovation Leadership",
       description: "We pioneer breakthrough technologies and methodologies in bacteriophage research."
@@ -151,7 +146,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
