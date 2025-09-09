@@ -32,7 +32,7 @@ const TeamPage = () => {
       bio: "My intrests centre on phage therapeutic application and antimicrobial studies. I am currently leading project on the development of a smart phage-based hydrogel bandage for effective management of Pseudomonas aeruginosa-infected wounds, as well as the detection of Salmonela Typhi hotspots through phage identification.",
       education: ["PhD Pharmacology, Harvard University", "JD Health Law, Georgetown"],
       achievements: ["The prophylactic evaluation of lambda bacteriophage construct displaying HER2 peptides in BALB/c Mice", "Isolation and characterization of Xanthomonas phage to manage bacteria spot disease in tomatoes"],
-      email: "m.chen@phageresearch.org",
+      email: "tambeprincet@gmail.com",
       linkedin: "https://www.linkedin.com/in/david-tipah-83a9b6314",
       image: david
     },
