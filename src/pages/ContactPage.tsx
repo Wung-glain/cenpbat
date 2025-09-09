@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
+import MapCard from '@/components/MapCard';
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -259,17 +260,8 @@ const ContactPage = () => {
               state-of-the-art laboratories and collaborative spaces.
             </p>
           </div>
+            <MapCard address="Ecwa Seminary, Jos, Plateau State, Nigeria" />
 
-          <Card className="shadow-card overflow-hidden">
-            <div className="aspect-video bg-muted flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <MapPin className="w-12 h-12 mx-auto mb-4" />
-                <p className="text-lg font-medium">Interactive Map</p>
-                <p className="text-sm">Google Maps integration would be embedded here</p>
-                <p className="text-sm mt-2">Ecwa Seminary, Jos, Plateau State, Nigeria</p>
-              </div>
-            </div>
-          </Card>
         </section>
 
         {/* Emergency Contact */}
